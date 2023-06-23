@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập thực hành</title>
+</head>
+<body>
+    <form action="#">
+        <label for="studentId">Mã sinh viên</label>
+        <input type="text" name="studentId" id="studentId"/><br>
+        <label for="studentName">Họ và tên</label>
+        <input type="text" name="studentName" id="studentName"/><br>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email"/> <br>
+        <label for="phone">Số điện thoại</label>
+        <input type="text" name="phone" id="phone"/> <br>
+        <label for="address">Quê quán</label>
+        <input type="text" name="address" id="address"/> <br>
+        <label for="gender">Giới tính</label>
+        <input type="radio" name="gender" id="male" value="Nam" checked><label for="male">Nam</label>
+        <input type="radio" name="gender" id="female" value="Nữ"> <label for="female">Nữ</label><br>
+        <input type="submit" value="Lưu lại" id="btnSave"/>
+
+    </form>
+    <h2>Danh sách học viên</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>Mã sinh viên</td>
+                <td>Họ và tên</td>
+                <td>Email</td>
+                <td>Số điện thoại</td>
+                <td>Quê quán</td>
+                <td>Gender</td>
+                <td>Hành động</td>
+           
+
+            </tr>
+        </thead>
+        <tbody id="content">
+           
+           
+        </tbody>       
+
+    </table>
+    <script src="./bthdom0623.js"></script>
+</body>
+</html>
